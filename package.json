@@ -1,0 +1,28 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "README Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beckamcnally/readmeGenerator.git"
+  },
+  "keywords": [
+    "README",
+    "Generator"
+  ],
+  "author": "Becka McNally",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/beckamcnally/readmeGenerator/issues"
+  },
+  "homepage": "https://github.com/beckamcnally/readmeGenerator#readme",
+  "dependencies": {
+    "i": "^0.3.7",
+    "inquirer": "^8.2.4",
+    "npm": "^9.3.1"
+  }
+}
