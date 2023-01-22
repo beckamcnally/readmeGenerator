@@ -28,8 +28,6 @@ Installation
  Features
  
 
-Observational example: I think this is going to be like the npm init ? 
-
 User Story 
 AS A Developer
 I WANT  a README generator

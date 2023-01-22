@@ -9,7 +9,6 @@ const questions = inquirer
         type: 'input',
         message: 'What is the title of your project?',
         name: 'title',
-
     },
     {
         type: 'input',
@@ -56,20 +55,35 @@ const questions = inquirer
     },
   ])
   .then((answers) => {
-     fs.writeFile('./changeName.md', JSON.stringify(answers), 'utf8', (err) => {
-        if (err) throw err;
-        console.log("the file has been saved!");
-    })
-    
+    writeToFile(answers)
     });    
 }
 
 //   // TODO: Create a function to write README file
-  function writeToFile(README, data) {
-    // fs.writeFile('./changeName.md', answers, 'utf8', (err) => {
-    //     if (err) throw err;
-    //     console.log("the file has been saved!");
-    // })
+  function writeToFile(answers) {
+    // first get to work then clean up and try deconstructing once have working
+    let titleSec = '# ' + answers.title
+    let descriptionSec = '## Description ' + '\n' +  answers.description
+
+    let tableCont = '## Table of Contents' + '\n' +  '* [Installation](#installation)'+ '\n' +   '* [Usage](#usage)' + '\n' +  '* [License](#license)' + '\n' +  '*[Contributing](#contributing)' + '\n' +  '* [Test](#test)' + '\n' +  '* Questions](#questions)'
+
+    let InstalSec = '## Installation ' + '\n' +  answers.instillation
+
+    let usageSec = '## Usage ' + '\n' +  answers.    usageInformation
+
+    let contributingSec = '## Contribution ' + answers.contribution
+
+    let testSec = '## Tests ' + answers.testInstructions
+
+    let questSec = '## Questions ' + '\n' +  'For questions please contact ' + answers.userName + ' at ' + answers.email 
+
+    let document = titleSec + '\n' + descriptionSec + '\n' + tableCont + '\n' + InstalSec + '\n' + usageSec + ' \n' + contributingSec + '\n' + testSec + '\n' + questSec
+    
+    
+    fs.writeFile('./changeName.md', document,  (err) => {
+        if (err) throw err;
+        console.log("the file has been saved!");
+    })
 }
   
 
