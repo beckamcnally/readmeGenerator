@@ -56,17 +56,20 @@ const questions = inquirer
     },
   ])
   .then((answers) => {
-    console.log(answers)
-    writeToFile()
+     fs.writeFile('./changeName.md', JSON.stringify(answers), 'utf8', (err) => {
+        if (err) throw err;
+        console.log("the file has been saved!");
+    })
+    
     });    
 }
 
 //   // TODO: Create a function to write README file
   function writeToFile(README, data) {
-    fs.writeFile('./changeName.md', answers, 'utf8', (err) => {
-        if (err) throw err;
-        console.log("the file has been saved!");
-    })
+    // fs.writeFile('./changeName.md', answers, 'utf8', (err) => {
+    //     if (err) throw err;
+    //     console.log("the file has been saved!");
+    // })
 }
   
 
