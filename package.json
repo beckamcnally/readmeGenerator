@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/beckamcnally/readmeGenerator#readme",
   "dependencies": {
+    "email-validator": "^2.0.4",
     "i": "^0.3.7",
     "inquirer": "^8.2.4",
     "npm": "^9.3.1"

@@ -1,27 +1,29 @@
 # readmeGenerator
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
-Use read me template to create a readme generator
+https://nodejs.org/docs/latest-v8.x/api/
+https://docs.npmjs.com/
 
-program will create the new readme file
+////
 
-so like 09 how we created a file  
+ 
+  [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+  [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+  [![License](https://img.shields.io/badge/License-Boost_201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  [![License](https://img.shields.io/badge/License-EPL_2.0-red.svg)](https://opensource.org/licenses/EPL-2.0)
+  [![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v2.1-blue.svg)](https://www.gnu.org/licenses/lgpl-2.1)
+take out css html this project is js npm command line 
 
+this is also my usage for the readme
 the application will be invoked by using the following bash command 
 
 ```
 node index.js
 ``` 
-Sections of the read me
-title
-description
-Table of Contents
-    * this will be constant unless I figure out how to say would you like to include x section then I will need this to be dynamic
-Installation
- Usage
- License
- Contributing 
- Tests
- Questions
 
  If I can figure out the include x section other sections to include would be:
  credits
