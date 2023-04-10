@@ -1,58 +1,55 @@
-# readmeGenerator
-https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+# Readme Generator 
 
-https://nodejs.org/docs/latest-v8.x/api/
-https://docs.npmjs.com/
+## Technology Used 
 
-////
+| Technology Used         | Resource URL           | 
+| ------------- |:-------------:| 
+| HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | 
+| CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
+| Git | [https://git-scm.com/](https://git-scm.com/)     |    
 
- 
-  [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
-  [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-  [![License](https://img.shields.io/badge/License-Boost_201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-  [![License](https://img.shields.io/badge/License-EPL_2.0-red.svg)](https://opensource.org/licenses/EPL-2.0)
-  [![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v2.1-blue.svg)](https://www.gnu.org/licenses/lgpl-2.1)
-take out css html this project is js npm command line 
+## Description 
 
-this is also my usage for the readme
-the application will be invoked by using the following bash command 
+Readme Generator is a a command-line application that dynamically generates a professional README.md file based on a user's input. The README file will include information such as the project title, description, installationinstructions, usage information, contribution guidlines, test instructions, and licensing information.
 
-```
-node index.js
-``` 
+View a video demonstration[here](https://watch.screencastify.com/v/VDQDr0LucJWBdxlBis62)
 
- If I can figure out the include x section other sections to include would be:
- credits
- Features
- 
+## Table of Contents 
 
-User Story 
-AS A Developer
-I WANT  a README generator
-SO THAT I can quickly create a professional README for a new project
+* [Usage](#usage)
+* [Learning Points](#learning-points)
+* [Author Info](#author-info)
+* [Credits](#credits)
 
-```
-GIVEN a command-line application that accepts user input 
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional REAME.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+## Usage 
 
-WHEN I enter my title project 
-THEN this is displayed as the title of the README 
+To use this application, follow these steps:
 
-WHEN I enter a description, installation instructions, usage information, contribution guidlines, and test instructions 
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+1. Clone the repository to your local machine.
+2. Open the terminal and navigate to the root directory of the project.
+3. Install the required dependencies by running `npm index.js` command.
+4. Run the application by running `node index.js` command.
+5. Answer the prompts in the terminal to provide the required information about your project.
+6. Once you have answered all the prompts, the application will generate a professional README.md file in the `dist` directory.
 
-WHEN I choose a license for my applicaiton from a list of options
-THEN a badge for that license is added near the top of the README and notice is added to the section of the README entitled License that explains which license the application is covered under
+## Learning Points 
 
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub 
+* The importanc of having a high-quality README file for an open source project.
+* How to use the Inquirer packageto create interactive command-line interfaces in NOde.js
+* How to use Node.js file system module (fs) to create and write files
+* How to use Node.js module.exports to export functions from a module
+* How to use JavaScript template literals to createduynamic strings in Node.js
+* How to use markdown syntax to format text in a README file
+* How to use badges to display licensing information in a README file.
 
-WHEN I enter my email address 
-THEN this is added to the section of the README entitle Questions, with instructions on how to reach me with additional questions
+## Author Info
 
+### Becka McNally 
 
+* [Portfolio](https://beckamcnally.github.io/beckamcnally/)
+* [LinkedIn](https://www.linkedin.com/in/becka-mcnally/)
+* [Github](https://github.com/beckamcnally)
+
+# Credits
+
+This project was built using starter code provided by UC Berkeley Coding Bootcamp Extension. The original starter code can be found at [https://github.com/coding-boot-camp/potential-enigma](https://github.com/coding-boot-camp/potential-enigma).
