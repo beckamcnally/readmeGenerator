@@ -4,15 +4,15 @@
 
 | Technology Used         | Resource URL           | 
 | ------------- |:-------------:| 
-| HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | 
-| CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
+| JavaScript   | [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)      |   
+|    | [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)      |  
 | Git | [https://git-scm.com/](https://git-scm.com/)     |    
 
 ## Description 
 
 Readme Generator is a a command-line application that dynamically generates a professional README.md file based on a user's input. The README file will include information such as the project title, description, installationinstructions, usage information, contribution guidlines, test instructions, and licensing information.
 
-View a video demonstration[here](https://watch.screencastify.com/v/VDQDr0LucJWBdxlBis62)
+View a video demonstration [here](https://watch.screencastify.com/v/VDQDr0LucJWBdxlBis62)
 
 ## Table of Contents 
 
